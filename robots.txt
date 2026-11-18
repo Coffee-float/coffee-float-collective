@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://coffee-float.github.io/coffee-float-collective/sitemap.xml
