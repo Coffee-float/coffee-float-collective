@@ -127,5 +127,44 @@ h1 { font-size: clamp(34px, 5.4vw, 64px); line-height: 1.55; letter-spacing: .08
   .brand-name { font-size: 12px; }
   .link-grid { grid-template-columns: 1fr; }
   .music-panel { align-items: flex-start; flex-direction: column; }
+  
+/* Collective Journal */
+.journal-panel {
+  position: relative;
+  padding: 3rem;
+  border: 1px solid rgba(194, 164, 119, 0.35);
+  background: linear-gradient(135deg, rgba(87, 69, 52, 0.22), rgba(40, 35, 31, 0.12));
+}
+
+.journal-label {
+  margin-bottom: 1.2rem;
+  color: #b89b72;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+}
+
+.journal-panel h3 {
+  margin: 0 0 1rem;
+  font-family: Georgia, serif;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 500;
+}
+
+.journal-panel p {
+  max-width: 650px;
+  line-height: 2;
+}
+
+.journal-panel .text-link {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .journal-panel {
+    padding: 1.5rem;
+  }
+}
+
   .desktop-only { display: none; }
 }
